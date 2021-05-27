@@ -1,0 +1,181 @@
+
+<html>
+<head><title></title>
+<style>
+.nav{
+    width:100%;
+    background-color:green;
+    margin:auto;
+    overflow:auto;
+   font-scolor:red;
+    
+    }
+ul{
+  float: right;
+  list-style-type:none;
+  margin-top:25px;
+  }
+ul li{
+     display:inline-block;
+    }
+ul li a{
+        text-decoration:none;
+       color:#fff;
+       padding:5px 20px;
+       border:1px solid #fff;
+       transition:0.6s ease:
+       }
+       
+ul li a:hover{ 
+        background-color:#fff;
+        color:#000;
+        }
+</style>
+</head>
+<div class="nav">
+<ul>
+<li><a href="web page.html">HOME</a></li>
+</ul>
+</div>
+<style>
+body
+{ 
+height:100%;
+  margin: 0px;
+ background-image: url("img4.jpg");
+background-position:center;
+  background-size:cover;
+
+}
+
+.outer {
+  height: 100%; 
+  background-size: cover;
+}
+
+input[type=text],select
+{
+width:300px;
+  padding: 12px;
+  margin: 10px;
+  border: 5px solid green;
+  border-radius: 40px;
+}
+
+
+input[type=Phone]
+{
+width:300px;
+  padding: 12px;
+  margin: 10px;
+  border: 5px solid green;
+  border-radius: 40px;
+}
+
+
+input[type=mail]
+{
+width:300px;
+  padding: 12px;
+  margin: 10px;
+  border: 5px solid green;
+  border-radius: 40px;
+  }
+
+
+input[type=submit] 
+{
+  background-color: light green;
+  color:green;
+  padding: 14px;
+  margin: 8px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  border: 5px solid green;  
+   font-size:20px;
+}
+
+
+input[type=submit]:hover {
+
+  background-color: aqua;
+}
+
+
+input[type=text]:hover {
+  background-color: aqua;
+}
+
+input[type=phone]:hover {
+  background-color: aqua;
+}
+input[type=mail]:hover {
+  background-color: aqua;
+}
+
+input[type="checkbox"]{
+    outline: 1px solid green;
+}
+
+</style>
+</head>
+<body>
+
+<div class="outer">
+<center>
+<div class="inner">
+<form>
+<table>
+<h2 style="padding-top:80px; text-align:center"><big><b><font color="black"><h1>Please leave your suggestions here:</h1></font></b></big></h2>
+
+
+  <tr style="color:black" font-size:"20">
+  <td><h2> Name:</h2></td>
+  <td><input name="name" type="text" placeholder="Name"></td>
+ </tr>
+  
+   <tr style="color:black">
+  <td><h2>Select city:</h2></td>
+  <td><select name="cities">
+  <option value="Telangana">Telangana</option>
+  <option value="Delhi">Delhi</option>
+  <option value="Mumbai">Mumbai</option>
+  <option value="Andhra pradesh">Andhra pradesh</option>
+</select></td>
+</tr>
+
+ <tr style="color:black">
+ <td><h2>Gender:</h2></td>
+ <td> <input type="checkbox"  name="gender" value="male" checked> Male
+  <input type="checkbox" name="gender" value="female"> Female
+  <input type="checkbox" name="gender" value="other"> Other
+ </tr>
+
+<tr style="color:black">
+ <td><h2>Phone:</h2></td>
+ <td><input type="phone" placeholder="99089*****"></td>
+ </tr>
+
+
+<tr style="color:black">
+<td><h2>Email:</h2></td>
+<td><input type="mail" placeholder="Email" name=""></td>
+</tr>
+
+
+<tr style="color:black">
+<td><h2>Suggestion:</h2></td>
+<td><textarea name="message" rows="8" cols="40"></textarea></td>
+</tr>
+
+<tr><td></td>
+<td> <input type="submit"></td>
+</tr>
+
+
+</table>
+</form>
+</div></center></div>
+</body>
+</html>
